@@ -1,0 +1,70 @@
+body{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.header{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+.header-logo{
+    width: 58px;
+    height: 20px;
+    margin-right: auto;
+}
+.nav-wrapper{
+    display: flex;
+    align-items: center;
+    height: 56px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    position: relative;
+}
+.menu-link{
+    padding: 16px;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000;
+}
+.menu-link:hover {
+    border-bottom: 3px solid #000;
+}
+.menu-link:active{
+    background-color: rgba(25, 25, 25, 0.7);
+    color: #fff;
+    border-bottom: 3px solid rgba(25, 25, 25, 0.1);
+}
+.btn{
+    box-sizing: border-box;
+    display: block;
+    padding: 8px 16px;
+    background-color: #00BAFC;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 24px;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #00BAFC;
+    padding: 5px 13px;
+    border: 3px solid #00BAFC;
+}
+.btn:active{
+    background-color:rgba(0, 186, 252, 0.6);
+    color: #fff;
+}
